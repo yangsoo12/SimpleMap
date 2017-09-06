@@ -80,7 +80,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         
-        print("callout Accessory Tapped!")
+        print("Accessory Tapped!!!")
         
         let viewAnno = view.annotation
         let viewTitle: String = ((viewAnno?.title)!)!
@@ -90,7 +90,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         let ac = UIAlertController(title: viewTitle, message: viewSubTitle, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        present(ac, animated: true, completion: nil)
+        present(ac, animated: true, completion: nil) 
     }
 
 }
