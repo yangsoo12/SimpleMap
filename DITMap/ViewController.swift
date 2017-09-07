@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  DITMap
 //
-//  Created by 김종현 on 2017. 8. 31..
-//  Copyright © 2017년 김종현. All rights reserved.
+//  Created by 박양수 on 2017. 9. 07..
+//  Copyright © 2017년 박양수. All rights reserved.
 //
 
 import UIKit
@@ -90,7 +90,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         let ac = UIAlertController(title: viewTitle, message: viewSubTitle, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        present(ac, animated: true, completion: nil) 
+        present(ac, animated: true, completion: nil)
     }
 
 }
